@@ -1,0 +1,39 @@
+.main-header-div {
+  display: flex;
+  flex-direction: wrap;
+  /* justify-content: space-around; */
+  background-color: #54514b;
+}
+.left-section {
+  width: 50%;
+  /* padding: 5rem; */
+}
+.left-section .title-div {
+  margin: 2rem;
+  font-weight: 700;
+  font-size: 50px;
+  color: #fff;
+}
+.discription {
+  margin-left: 3rem;
+  margin-top: 2rem;
+}
+.discription p {
+  color: #edece7;
+  font-size: 20px;
+}
+.discription button {
+  margin-top: 2rem;
+  width: 40%;
+  height: 3rem;
+  border-radius: 8rem;
+}
+.right-section {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+.right-section img {
+  height: 35rem;
+  margin: 2rem;
+}
